@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.plugin.EncoderTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.314 sec
+testBase64StringEncoder(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0.296 sec
+testHEXEncoder(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0.003 sec
+testBase32Encoder(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0.001 sec
+testSchemaValidation(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0.01 sec
+testSchemaValidationWithInvalidInputSchema(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0 sec
+testBase64Encoder(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0 sec
+testStringBase32Encoder(co.cask.hydrator.plugin.EncoderTest)  Time elapsed: 0 sec

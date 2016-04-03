@@ -1,0 +1,53 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-03-13T12:44:43-07:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 16
+
+Apache Licensed: 16
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/pom.xml
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/ETLUtils.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/HiveSchemaConverter.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/MockPipelineConfigurer.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/RecordConverter.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/RowRecordTransformer.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/SchemaValidator.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/SourceInputFormatProvider.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/MockEmitter.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/MockLookupProvider.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/MockMetrics.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/MockRealtimeContext.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/MockStageMetrics.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/MockTransformContext.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/main/java/co/cask/hydrator/common/test/NoopMetrics.java
+  AL    /Users/nmotgi/Work/Devel/hydrator-plugins/hydrator-common/src/test/java/co/cask/hydrator/common/RowRecordTransformerTest.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

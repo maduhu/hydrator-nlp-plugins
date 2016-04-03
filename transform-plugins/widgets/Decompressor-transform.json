@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "spec-version": "1.0"
+  },
+  "configuration-groups": [
+    {
+      "label": "Decompressor",
+      "properties": [
+        {
+          "widget-type": "keyvalue-dropdown",
+          "label": "Decompress Fields",
+          "name": "decompressor",
+          "description": "List of fields to decompress. The key specifies the name of the field to be decompressed, with its corresponding value specifying the type of decompression that will be applied to it.",
+          "widget-attributes": {
+            "showDelimiter": "false",
+            "dropdownOptions": [
+              "SNAPPY",
+              "ZIP",
+              "GZIP",
+              "NONE"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "schema",
+      "label": "schema",
+      "widget-type": "schema",
+      "widget-attributes": {
+        "schema-types": [
+          "bytes",
+          "string"
+        ],
+        "schema-default-type": "bytes",
+        "property-watch": "format"
+      }
+    }
+  ]
+}

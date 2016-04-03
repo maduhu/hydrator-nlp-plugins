@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.plugin.JSONFormatterTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec
+testSchemaValidation(co.cask.hydrator.plugin.JSONFormatterTest)  Time elapsed: 0.024 sec
+testJSONFormatter(co.cask.hydrator.plugin.JSONFormatterTest)  Time elapsed: 0.05 sec

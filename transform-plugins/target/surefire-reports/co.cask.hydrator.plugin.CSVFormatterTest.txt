@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.plugin.CSVFormatterTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 sec
+testDefaultCSVFormatter(co.cask.hydrator.plugin.CSVFormatterTest)  Time elapsed: 0.336 sec
+testSchemaValidation(co.cask.hydrator.plugin.CSVFormatterTest)  Time elapsed: 0.011 sec

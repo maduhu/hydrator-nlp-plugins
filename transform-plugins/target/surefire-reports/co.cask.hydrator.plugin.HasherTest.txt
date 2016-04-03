@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.plugin.HasherTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+testSchemaValidation(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0.005 sec
+testHasherSHA256(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0.034 sec
+testHasherSHA384(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0.002 sec
+testHasherSHA512(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0.001 sec
+testHasherSHA1(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0 sec
+testHasherMD2(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0.004 sec
+testHasherMD5(co.cask.hydrator.plugin.HasherTest)  Time elapsed: 0.001 sec

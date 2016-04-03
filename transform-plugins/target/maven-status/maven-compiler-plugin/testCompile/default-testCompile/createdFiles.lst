@@ -1,0 +1,11 @@
+co/cask/hydrator/plugin/CloneRecordTest.class
+co/cask/hydrator/plugin/HasherTest.class
+co/cask/hydrator/plugin/CSVParserTest.class
+co/cask/hydrator/plugin/CompressorTest.class
+co/cask/hydrator/plugin/DecoderTest.class
+co/cask/hydrator/plugin/JSONParserTest.class
+co/cask/hydrator/plugin/DecompressorTest.class
+co/cask/hydrator/plugin/CSVFormatterTest.class
+co/cask/hydrator/plugin/JSONFormatterTest.class
+co/cask/hydrator/plugin/EncoderTest.class
+co/cask/hydrator/plugin/StreamFormatterTest.class

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.plugin.JSONParserTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+testSchemaInvalidSchema(co.cask.hydrator.plugin.JSONParserTest)  Time elapsed: 0.016 sec
+testJSONParserProjections(co.cask.hydrator.plugin.JSONParserTest)  Time elapsed: 0.045 sec
+testJSONParser(co.cask.hydrator.plugin.JSONParserTest)  Time elapsed: 0.001 sec
+testSchemaValidation(co.cask.hydrator.plugin.JSONParserTest)  Time elapsed: 0.011 sec

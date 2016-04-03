@@ -1,0 +1,7 @@
+{
+  "parents": [
+    "system:cdap-etl-batch[3.3.0-SNAPSHOT,3.5.0-SNAPSHOT)",
+    "system:cdap-etl-realtime[3.3.0-SNAPSHOT,3.5.0-SNAPSHOT)"
+  ],
+  "properties": {}
+}

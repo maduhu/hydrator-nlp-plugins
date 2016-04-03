@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.plugin.StreamFormatterTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.35 sec
+testSchemaValidation(co.cask.hydrator.plugin.StreamFormatterTest)  Time elapsed: 0.305 sec
+testStreamFormatter(co.cask.hydrator.plugin.StreamFormatterTest)  Time elapsed: 0.044 sec

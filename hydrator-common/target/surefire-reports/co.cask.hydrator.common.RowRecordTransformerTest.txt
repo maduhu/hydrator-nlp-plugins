@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: co.cask.hydrator.common.RowRecordTransformerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec
+testInvalidFieldTypeThrowsException(co.cask.hydrator.common.RowRecordTransformerTest)  Time elapsed: 0.06 sec
+testBadRowFieldThrowsException(co.cask.hydrator.common.RowRecordTransformerTest)  Time elapsed: 0.002 sec
+testTransform(co.cask.hydrator.common.RowRecordTransformerTest)  Time elapsed: 0.045 sec

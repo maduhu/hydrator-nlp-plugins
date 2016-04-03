@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/CloneRecord.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/Compressor.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/CSVFormatter.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/CSVParser.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/Decoder.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/Decompressor.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/Encoder.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/Hasher.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/JSONFormatter.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/JSONParser.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/StreamFormatter.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/main/java/co/cask/hydrator/plugin/TypeConvertor.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/CloneRecordTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/CompressorTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/CSVFormatterTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/CSVParserTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/DecoderTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/DecompressorTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/EncoderTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/HasherTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/JSONFormatterTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/JSONParserTest.java">
+</file>
+<file name="/Users/nmotgi/Work/Devel/hydrator-plugins/transform-plugins/src/test/java/co/cask/hydrator/plugin/StreamFormatterTest.java">
+</file>
+</checkstyle>
