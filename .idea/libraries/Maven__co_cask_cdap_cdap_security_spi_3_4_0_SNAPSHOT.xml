@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: co.cask.cdap:cdap-security-spi:3.4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/co/cask/cdap/cdap-security-spi/3.4.0-SNAPSHOT/cdap-security-spi-3.4.0-20160331.233019-136.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/co/cask/cdap/cdap-security-spi/3.4.0-SNAPSHOT/cdap-security-spi-3.4.0-20160331.233019-136-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/co/cask/cdap/cdap-security-spi/3.4.0-SNAPSHOT/cdap-security-spi-3.4.0-20160331.233019-136-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: co.cask.cdap:cdap-common:3.4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/co/cask/cdap/cdap-common/3.4.0-SNAPSHOT/cdap-common-3.4.0-20160331.232657-280.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/co/cask/cdap/cdap-common/3.4.0-SNAPSHOT/cdap-common-3.4.0-20160331.232657-280-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/co/cask/cdap/cdap-common/3.4.0-SNAPSHOT/cdap-common-3.4.0-20160331.232657-280-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
