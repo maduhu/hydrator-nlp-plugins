@@ -29,7 +29,7 @@
 
   <modules>
     <module>hydrator-common</module>
-    <module>stanford-nlp</module>
+    <module>tokenizer-plugins</module>
   </modules>
 
   <licenses>

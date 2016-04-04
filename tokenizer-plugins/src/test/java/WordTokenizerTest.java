@@ -17,10 +17,18 @@
 import co.cask.cdap.api.data.format.StructuredRecord;
 import co.cask.cdap.api.data.schema.Schema;
 import co.cask.cdap.etl.api.Transform;
-import co.cask.hydrator.common.MockPipelineConfigurer;
 import co.cask.hydrator.common.test.MockEmitter;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.Sentence;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.util.CoreMap;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.List;
+import java.util.Properties;
 
 
 /**
@@ -56,5 +64,37 @@ public class WordTokenizerTest {
     emitter.clear();
   }
 
+  @Test
+  public void testABC() throws Exception {
+    Properties props = new Properties();
+    props.put("annotators", "tokenize, ssplit, pos, lemma, ner");
 
-}
+    // StanfordCoreNLP loads a lot of models, so you probably
+    // only want to do this once per execution
+    StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+    Annotation document = new Annotation("An autopsy on a Palestinian assailant showed Sunday that he was killed by a" +
+                                           " bullet to the head, backing a manslaughter case against an Israeli " +
+                                           "soldier caught on video shooting him, a doctor said.\n" +
+                                           "\n" +
+                                           "The soldier shot Abdul Fatah al-Sharif in the head on March 24 as he lay " +
+                                           "on the ground while apparently seriously wounded from earlier gunshot " +
+                                           "wounds.\n" +
+                                           "\n" +
+                                           "Video of the incident in Hebron in the occupied West Bank spread widely " +
+                                           "online and the soldier was arrested, with rights groups labelling it a " +
+                                           "summary execution.");
+    pipeline.annotate(document);
+    List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+    for(CoreMap sentence: sentences) {
+      for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+        String ner = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+        //if (!ner.equalsIgnoreCase("o")) {
+          String line = String.format("%s -> %s", token.word(), ner);
+          System.out.println(line);
+        //}
+      }
+    }
+  }
+
+
+  }

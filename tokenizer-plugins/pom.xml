@@ -9,7 +9,7 @@
   </parent>
 
   <name>Stanford NLP Plugins</name>
-  <artifactId>stanford-nlp</artifactId>
+  <artifactId>tokenizer-plugins</artifactId>
   <modelVersion>4.0.0</modelVersion>
 
   <dependencies>
